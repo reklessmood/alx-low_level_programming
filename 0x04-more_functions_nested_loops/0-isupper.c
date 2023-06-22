@@ -1,13 +1,21 @@
-Question #8
-What is the return value of the following function?
+#include "main.h"
 
-int some_function(void)
+/**
+ * _isupper - function that checks for uppercase character.
+ *
+ * @c: input by user.
+ *
+ * Return: 1 if c is uppercase, and 0 otherwise.
+ */
+
+int _isupper(int c)
 {
-    int i;
-
-    for (i = 0; i < 10; i++)
-    {
-        printf("%d", i);
-    }
-    return(i);
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+		else
+	{
+		return (0);
+	}
 }

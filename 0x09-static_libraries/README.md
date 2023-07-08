@@ -1,1 +1,1 @@
-static libraries
+static libraries and so on
